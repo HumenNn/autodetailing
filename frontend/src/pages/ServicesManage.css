@@ -1,0 +1,76 @@
+.services-manage-page {
+  padding: 2rem 0;
+}
+
+.page-header {
+  margin-bottom: 2rem;
+}
+
+.page-header h1 {
+  color: #1a1a2e;
+  font-size: 1.8rem;
+  margin-bottom: 0.5rem;
+}
+
+.page-header p {
+  color: #666;
+}
+
+.services-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+  gap: 1.5rem;
+}
+
+.service-card {
+  background: #fff;
+  border-radius: 12px;
+  padding: 1.5rem;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.service-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 1rem;
+}
+
+.service-category {
+  display: inline-block;
+  background: #e94560;
+  color: #fff;
+  padding: 0.25rem 0.75rem;
+  border-radius: 20px;
+  font-size: 0.75rem;
+  margin-bottom: 0.5rem;
+}
+
+.service-header h3 {
+  color: #1a1a2e;
+  font-size: 1.2rem;
+  margin: 0;
+}
+
+.service-price-block {
+  text-align: right;
+}
+
+.service-price {
+  display: block;
+  color: #e94560;
+  font-weight: bold;
+  font-size: 1.3rem;
+}
+
+.service-duration {
+  display: block;
+  color: #666;
+  font-size: 0.85rem;
+}
+
+.service-description {
+  color: #666;
+  line-height: 1.6;
+  font-size: 0.9rem;
+}
